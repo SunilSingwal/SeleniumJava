@@ -38,6 +38,7 @@ public class ExcelRead4 {
         		{
         			Cell c1 = ws.getCell(j, i);
         			System.out.println(c1.getContents());
+        			System.out.println("done");
         			
         		}
         		scan.close();
